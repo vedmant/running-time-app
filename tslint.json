@@ -1,0 +1,27 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {
+    "ordered-imports": [false],
+    "object-literal-sort-keys": [false],
+    "interface-name": [true, "never-prefix"],
+    "member-access": [true, "no-public"],
+    "quotemark": [true, "single", "jsx-double", "avoid-escape", "avoid-template"],
+    "semicolon": [true, "never"],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "no-empty-interface": false,
+    "object-literal-key-quotes": [true, "as-needed"]
+  },
+  "rules": {
+    "ordered-imports": [false],
+    "object-literal-sort-keys": [false],
+    "interface-name": [true, "never-prefix"],
+    "member-access": [true, "no-public"],
+    "quotemark": [true, "single", "jsx-double", "avoid-escape", "avoid-template"],
+    "semicolon": [true, "never"],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "no-empty-interface": false,
+    "object-literal-key-quotes": [true, "as-needed"]
+  },
+  "rulesDirectory": []
+}
