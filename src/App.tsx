@@ -27,7 +27,7 @@ const App = createStackNavigator(
     Drawer: {screen: Drawer},
   },
   {
-    initialRouteName: 'Login',
+    initialRouteName: 'Drawer',
     headerMode: 'none',
   },
 )

@@ -5,26 +5,27 @@ import {NavigationActions} from 'react-navigation'
 const routes = [
   {
     route: 'Home',
-    caption: 'Home'
+    caption: 'Home',
   },
   {
     route: 'BlankPage',
-    caption: 'Blank Page'
+    caption: 'Blank Page',
   },
   {
     route: 'Login',
-    caption: 'Logout'
-  }
+    caption: 'Logout',
+  },
 ]
 
 export interface Props {
-  navigation: any;
+  navigation: any
 }
 
 export interface State {
 }
 
 const resetAction = NavigationActions.navigate({routeName: 'Login'})
+
 export default class Sidebar extends React.Component<Props, State> {
   render() {
     return (
